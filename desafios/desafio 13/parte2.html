@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            border-collapse: collapse;
+        }
+        th{
+            border: 1px solid black;
+            margin: 500px;
+            padding: 10px;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Área</th>
+            <th colspan="2">Disciplinas</th>
+            <th colspan="2">Notas</th>
+            <th>Nota 1</th>
+            <th>Nota 2</th>
+            <th rowspan="2">Média</th>
+        </tr>
+        <tr>
+            <th rowspan="5">Exatas</th>
+            <td>Matemática</td>
+            <td>Física</td>
+            <td>Química</td>
+            <td>Biologia</td>
+        </tr>
+        <tr>
+            <th colspan="4">Média de Exatas</th>
+        </tr>
+    </table>
+</body>
+</html>
