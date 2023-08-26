@@ -1,0 +1,54 @@
+@charset "UTF-8";
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0px;
+}
+
+.header {
+    background-color: darkgreen;
+    padding: 80px;
+    text-align: center;
+    color: white;
+}
+
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+
+.navbar a {
+    color: white;
+    padding: 14px 20px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.navbar a:hover{
+    background-color: gray;
+    color: black;
+    font-weight: bolder;
+}
+
+.corpo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.card {
+    flex: 48%;
+    background: #ccc;
+    height: 300px;
+    margin: 1%;
+}
+
+@media screen and (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+}
+
